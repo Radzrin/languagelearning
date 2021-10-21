@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="french.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="french.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="english.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="english.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="spanish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="spanish.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="russian.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="russian.Text" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="korean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="korean.Text" xml:space="preserve">
+    <value>한글</value>
+  </data>
+  <data name="japanese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="japanese.Text" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="simpChinese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="simpChinese.Text" xml:space="preserve">
+    <value>中文 (简体)</value>
+  </data>
+  <data name="tradChinese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 26</value>
+  </data>
+  <data name="tradChinese.Text" xml:space="preserve">
+    <value>中文 (繁體)</value>
+  </data>
+  <data name="languageTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="languageTab.Text" xml:space="preserve">
+    <value>languages</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Welcome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Welcome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Welcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 19.8pt, style=Bold</value>
+  </data>
+  <data name="Welcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 88</value>
+  </data>
+  <data name="Welcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 36</value>
+  </data>
+  <data name="Welcome.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Welcome.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Name" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Welcome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LogIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LogIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 10.8pt, style=Bold</value>
+  </data>
+  <data name="LogIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 231</value>
+  </data>
+  <data name="LogIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 62</value>
+  </data>
+  <data name="LogIn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LogIn.Text" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="&gt;&gt;LogIn.Name" xml:space="preserve">
+    <value>LogIn</value>
+  </data>
+  <data name="&gt;&gt;LogIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LogIn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SignUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SignUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 10.8pt, style=Bold</value>
+  </data>
+  <data name="SignUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 354</value>
+  </data>
+  <data name="SignUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 62</value>
+  </data>
+  <data name="SignUp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SignUp.Text" xml:space="preserve">
+    <value>Sign up</value>
+  </data>
+  <data name="&gt;&gt;SignUp.Name" xml:space="preserve">
+    <value>SignUp</value>
+  </data>
+  <data name="&gt;&gt;SignUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SignUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SignUp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>517, 470</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAIB8AAAEAIAA3BAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAHwgDAAAAsYg/vgAAAAFz
+        UkdCAdnJLH8AAAAJcEhZcwAADsQAAA7EAZUrDhsAAAI9UExURQAAAAEBAQ8PDzExMYeHh7q6uggICC8v
+        L/r6+tra2m9vbwwBAg4CAhkGB6ypqvX19dnY2NTU1BkUFAYBAQIAAB0DBDsHCV0LDm8NEXcOEo0RFYkQ
+        FbJDR/Xt7vDw8NTT0/v7+5tucI4SF4MPFHkOE2YMEE4JDCgFBn8PE6ATGVUKDSkFBiIEBRgDBBYDAxgM
+        Dc/Jyf39/b+/v+Ti4jkmJyEEBUMICpkSF7kWHAkBAS0FB3MOEowQFZ4TGKETGY4RFpkoLOd/g+V9gdlw
+        dMVlaeN6ful/g7I+QqQTGZoSF4QQFFgLDQQAARECAyQEBjMGCEcIC3QiJdN9gN13e9hwdMVlaOF5feGJ
+        jNyIi4A5PD0HCSoFBhsDBI+Pj////9/f3729vWFhYfj4+P7+/rGxsRwcHODg4HZ2dgkJCePj4+3t7UVF
+        RZiYmNLS0h4eHpGRka+vrw4ODjs7OzIyMvb29uXl5V1dXQoKCrW1tTg4OAYGBrS0tCUlJWRkZLCwsAwM
+        DERERPf39+Hh4Xp6eg0NDdbW1vHx8UhISMjIyMLCwiQkJAMDA3BwcLy8vCwsLHJycuTk5IWFhSoqKtvb
+        2zw8PD4+PtHR0UJCQpqamsHBwYmJiZ+fnzk5OXFxcTc3N0ZGRlFRUVJSUkxMTD8/P09PT8TExDQ0NFBQ
+        UFVVVVZWVlNTU0tLS7Kysu/v78fHx7Ozs/Ly8snJycPDw15eXt3d3RMTEwUFBaKioq6urjY2NpSUlJmZ
+        mYKCgnV1dUBAQLWY7A8AAAGTSURBVHicY2CgP2AkIM/ETEABCysbXnl2Dk4u3LLcPLx8/AKCQtzCGFIi
+        omLiEpJS0jKycvIKikrKKqpq6tzICjQ0tbR1dPX0DQw5jQyNTXRN1c3MLSyRFFhZ29ja2ds7ODo5u7i6
+        udt7eHh6efug2OHr5x8QGBTsHBIaFh4RGRUdg+kOBobYuLj4hMSkuOQU7J5I5Y+LS0vPyIyLy8rGJs+Y
+        ExcXl5vHkB8XZ1hQiEVBkWFcHAcLA0NxSVxcaRmmfHkF0IDSSgaGqmqgEdU1GApqgS4wrKsHshoa4+Ka
+        mtFjtaUVaEBbO4hZ1REX19jZhSrf3QOUN+ztqwGCrn6gKyZMrEdRMGkyUIFc85SpIJA9LS6Ov3M6ioIZ
+        QPm4mVMhoHJWXFxy7uxuJPk5QHfFJc+dN3X+goWLFk9ZkgW0YymyVztBBkyoXDZ/+YqVq1ZPKV4TF7d2
+        3XpEaLWD5ONYMmB8xuwNcRs2btoM49dvAslv2Yowcdv2ZM5Nm3bAvLpz124gWILs6Jo9e4FgH0ZwDgwA
+        AGCtg5LcyPh2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main Window</value>
+  </data>
+  <data name="&gt;&gt;languageTab.Name" xml:space="preserve">
+    <value>languageTab</value>
+  </data>
+  <data name="&gt;&gt;languageTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;french.Name" xml:space="preserve">
+    <value>french</value>
+  </data>
+  <data name="&gt;&gt;french.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;english.Name" xml:space="preserve">
+    <value>english</value>
+  </data>
+  <data name="&gt;&gt;english.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spanish.Name" xml:space="preserve">
+    <value>spanish</value>
+  </data>
+  <data name="&gt;&gt;spanish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;russian.Name" xml:space="preserve">
+    <value>russian</value>
+  </data>
+  <data name="&gt;&gt;russian.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;korean.Name" xml:space="preserve">
+    <value>korean</value>
+  </data>
+  <data name="&gt;&gt;korean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;japanese.Name" xml:space="preserve">
+    <value>japanese</value>
+  </data>
+  <data name="&gt;&gt;japanese.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simpChinese.Name" xml:space="preserve">
+    <value>simpChinese</value>
+  </data>
+  <data name="&gt;&gt;simpChinese.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tradChinese.Name" xml:space="preserve">
+    <value>tradChinese</value>
+  </data>
+  <data name="&gt;&gt;tradChinese.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
